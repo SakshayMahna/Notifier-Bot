@@ -3,11 +3,11 @@ from setuptools import find_packages, setup
 setup(
     name='notifierbot',
     packages=find_packages(include=['notifierbot']),
-    version='0.1.1',
+    version='1.0.0',
     description='Python Library for different Notification Bots',
     author='Sakshay Mahna',
     author_email='sakshum19@gmail.com',
-    url='https://github.com/SakshayMahna/Notifier-Bot',
+    url='https://github.com/SakshayMahna/Notifier-Bot/releases/tag/v1.0.0',
     keywords=['bot', 'notification', 'notifier'],
     license='MIT',
     install_requires=['requests'],
