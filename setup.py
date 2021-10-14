@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 setup(
     name='notifierbot',
     packages=find_packages(include=['notifierbot']),
-    version='1.0.0',
+    version='1.1.0',
     description='Python Library for different Notification Bots',
     author='Sakshay Mahna',
     author_email='sakshum19@gmail.com',
