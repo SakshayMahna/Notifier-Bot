@@ -3,6 +3,9 @@ Telegram Notification Bot
 """
 
 import requests
+import logging
+
+logger = logging.getLogger("telegram-bot")
 
 class TelegramConfig:
     """
@@ -53,4 +56,4 @@ class TelegramBot:
             r = requests.get(url)
             r.raise_for_status()
         except requests.exceptions.HTTPError as err:
-            print(err)
+            logger.error(err)
