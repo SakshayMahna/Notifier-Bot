@@ -7,7 +7,7 @@ setup(
     description='Python Library for different Notification Bots',
     author='Sakshay Mahna',
     author_email='sakshum19@gmail.com',
-    url='https://github.com/SakshayMahna/Notifier-Bot/releases/tag/v1.0.0',
+    url='https://github.com/SakshayMahna/Notifier-Bot/archive/refs/tags/v1.0.0.tar.gz',
     keywords=['bot', 'notification', 'notifier'],
     license='MIT',
     install_requires=['requests'],
