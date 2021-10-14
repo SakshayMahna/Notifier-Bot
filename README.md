@@ -1,19 +1,13 @@
 # Notifier Bot
 
----
-
 Notifier Bot is a Python library consisting of different Notification Bots
 
 
 ## Available Bots
 
----
-
 - Telegram Bot
 
 ## Setup
-
----
 
 ### Telegram Bot
 
@@ -24,7 +18,5 @@ Notifier Bot is a Python library consisting of different Notification Bots
 3. Use the `TelegramConfig` object to initialize `TelegramBot`.
 
 ## Examples
-
----
 
 Refer to [examples](examples) directory
