@@ -2,12 +2,12 @@ from setuptools import find_packages, setup
 
 setup(
     name='notifierbot',
-    packages=find_packages(include=['notifierbot']),
-    version='1.1.0',
+    packages=find_packages(),
+    version='1.2.0',
     description='Python Library for different Notification Bots',
     author='Sakshay Mahna',
     author_email='sakshum19@gmail.com',
-    url='https://github.com/SakshayMahna/Notifier-Bot/archive/refs/tags/v1.0.0.tar.gz',
+    url='https://github.com/SakshayMahna/Notifier-Bot/',
     keywords=['bot', 'notification', 'notifier'],
     license='MIT',
     install_requires=['requests'],

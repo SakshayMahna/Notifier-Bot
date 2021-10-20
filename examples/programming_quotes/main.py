@@ -1,4 +1,4 @@
-from notifierbot.telegram_bot import TelegramBot
+from notifierbot.telegram.bot import TelegramBot
 from config import config
 import time
 
